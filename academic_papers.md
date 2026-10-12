@@ -31,7 +31,7 @@ This research examines the role of "new third places" (e.g., cafes, libraries) w
 *   **Econometrics:** Stepwise TWFE panel regression estimated via Weighted Least Squares (WLS).
 
 ### A Unified Framework for Tracking Working-From-Home Using Mobile Phone Data
-*(Working Paper)* | [**GitHub**](https://www.researchgate.net/publication/395945061_Estimating_the_impact_of_working_from_home_on_urban_equilibrium_neighborhood_scale_effects_using_mobile_data)
+*(Working Paper)* | [**GitHub**](https://github.com/Ines2607/phd-remote-work/tree/master)
 
 **Abstract & Core Findings:**
 This methodological paper develops a scalable, geography-independent approach to estimating granular WFH rates using passively collected GPS signals, overcoming the spatial biases and low resolution of traditional surveys. The framework relies on Bayesian conditional probability to account for non-uniform hourly signal sampling and individualized working schedules. The method was rigorously validated against the 2023 New Zealand Census data. 
