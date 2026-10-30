@@ -1,4 +1,4 @@
-[**About me**](index.md) | [**Academic Papers**](academic_papers.md) | [**Applied Urban Research**](researches.md) | [**R&D & Location consulitng**](projects.md) 
+[**About me**](index.md) | [**Academic Papers**](academic_papers.md) | [**Applied Urban Research**](researches.md) | [**R&D & Location consulitng**](projects.md) | [**Elections 2026**](elections_2026/) 
 
 
 
