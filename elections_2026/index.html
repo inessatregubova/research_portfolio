@@ -181,19 +181,7 @@
   <a href="#method">How this was built</a>
 </nav>
 <main>
-  <section id="results">
-    <h3>Vote percentage by party</h3>
-    <p>
-      The bars are the average share across places, not the official national result.
-      A quiet place counts the same as a crowded one, so a party that wins dense cities can look smaller here than on election night.
-    </p>
-    <div id="meanShareChart" style="height:380px"></div>
-    <h3>Turnout percentage by winning party</h3>
-    <p>
-      Average turnout in the places where that party came first.
-      Turnout is ballots cast divided by people eligible to vote.
-    </p>
-    <div id="turnoutChart" style="height:380px"></div>
+  <section>
     <h3>Who won where</h3>
     <p>
       The map shows which party won in each hexagon.
@@ -222,6 +210,18 @@
       <div id="shareMap"></div>
       <div id="shareLegend" class="share-legend"></div>
     </div>
+    <h3 id="results">Vote percentage by party</h3>
+    <p>
+      The bars are the average share across places, not the official national result.
+      A quiet place counts the same as a crowded one, so a party that wins dense cities can look smaller here than on election night.
+    </p>
+    <div id="meanShareChart" style="height:380px"></div>
+    <h3>Turnout percentage by winning party</h3>
+    <p>
+      Average turnout in the places where that party came first.
+      Turnout is ballots cast divided by people eligible to vote.
+    </p>
+    <div id="turnoutChart" style="height:380px"></div>
   </section>
 
   <section id="voters">
@@ -464,17 +464,18 @@ function partyOptions(select, preferModeled) {
 }
 
 const BAR_PARTY = {
-  "Likud": ["Likud", "#4E79A7"],
-  "Shas": ["Shas", "#F28E2B"],
-  "United Torah Judaism": ["Yadut Hatora", "#B07AA1"],
-  "Otzma Yehudit": ["Otzma Yehudit", "#E15759"],
-  "Religious Zionist Party / Zehut": ["Religious Zionism", "#76B7B2"],
-  "The Democrats": ["Democrats", "#59A14F"],
-  "Yisrael Beiteinu": ["Beiteinu", "#9467BD"],
-  "Yashar": ["Yashar", "#D4A017"],
-  "B’Yachad / Together": ["B’Yachad", "#FF9DA7"],
-  "Ra’am / United Arab List": ["Ra’am", "#17BECF"],
-  "Hadash–Ta’al / Joint List": ["Hadash–Ta’al", "#8C564B"]
+  "Likud": ["Likud", "#1f5aa5"],
+  "Shas": ["Shas", "#000000"],
+  "United Torah Judaism": ["Yadut Hatora", "#003366"],
+  "Otzma Yehudit": ["Otzma Yehudit", "#FF4500"],
+  "Religious Zionist Party / Zehut": ["Religious Zionism", "#4F9298"],
+  "The Democrats": ["Democrats", "#2A38D7"],
+  "Yisrael Beiteinu": ["Beiteinu", "#23C2EB"],
+  "Yashar": ["Yashar", "#62B9F2"],
+  "B’Yachad / Together": ["B’Yachad", "#2A2A78"],
+  "Ra’am / United Arab List": ["Ra’am", "#15793D"],
+  "Hadash–Ta’al / Joint List": ["Hadash–Ta’al", "#D42436"],
+  "Blue and White": ["Blue and White", "#0DAAFF"]
 };
 function barParty(name) {
   const key = String(name || "").split(" (")[0];
